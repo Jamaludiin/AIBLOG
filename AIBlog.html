@@ -1,0 +1,135 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIBlog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="AIBlog-style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-white shadow-sm rounded p-3">
+            <!-- Header -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+                <a class="navbar-brand ms-3" href="#">AI Blog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LangChain</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LlamaIndex</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HuggingFace</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex me-5">
+                  <ul class="navbar-nav me-auto">
+                     <!-- Content 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="">
+                            <button class="btn btn-sm btn-dark btn-link nav-link position-relative" href="#">Sign Up</button>
+                        </li> -->
+                        <li class="">
+                            <a href="login.html" class="btn btn-sm btn-dark position-relative me-3 px-3">Login</a>
+                        </li>
+                        <li class="">
+                            <button type="button" class="btn btn-sm btn-dark position-relative px-3">Sign Up</button>
+                        </li>
+                </ul>
+                </div>
+            </nav>
+            <!-- Content -->
+            <div class="row">
+                <!-- Left Sidebar -->
+                <div class="col-lg-3">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">Introduction</a>
+                        <a href="#" class="list-group-item list-group-item-action">Tutorials</a>
+                        
+                        <a href="#" class="list-group-item list-group-item-action">How-to guides</a>
+                        <a href="#" class="list-group-item list-group-item-action">Conceptual guide</a>
+                       
+                        <a href="#" class="list-group-item list-group-item-action">Ecosystem</a>
+                        
+                        <a href="#" class="list-group-item list-group-item-action">LangSmith</a>
+                        <a href="#" class="list-group-item list-group-item-action">LangGraph</a>
+                        <a href="#" class="list-group-item list-group-item-action">LangServe</a>
+                        
+                        <a href="#" class="list-group-item list-group-item-action">Versions</a>
+                        
+                        <a href="#" class="list-group-item list-group-item-action">Overview</a>
+                        <a href="#" class="list-group-item list-group-item-action">Release Policy</a>
+                        <a href="#" class="list-group-item list-group-item-action">Packages</a>
+                        
+                    </div>
+                </div>
+                <!-- Right Content -->
+                <div class="col-lg-9">
+                    <div class="p-3 border rounded">
+                        <h2>Introduction</h2>
+                        <p>
+                            <strong>LangChain</strong> is a framework for developing applications powered by large language models (LLMs).
+                        </p>
+                        <p>
+                            LangChain simplifies every stage of the LLM application lifecycle:
+                        </p>
+                        <ul>
+                            <li><strong>Development:</strong> Build your applications using LangChain's open-source <a href="#">building blocks</a>, <a href="#">components</a>, and <a href="#">third-party integrations</a>. Use <a href="#">LangGraph</a> to build stateful agents with first-class streaming and human-in-the-loop support.</li>
+                            <li><strong>Productionization:</strong> Use <a href="#">LangSmith</a> to inspect, monitor and evaluate your chains, so that you can continuously optimize and deploy with confidence.</li>
+                            <li><strong>Deployment:</strong> Turn your LangGraph applications into production-ready APIs and Assistants with <a href="#">LangGraph Cloud</a>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Welcome to the AI Blog</h5>
+                    <p>
+                        Our AI blog is your go-to resource for the latest trends, insights, and developments in the world of artificial intelligence. Whether you're an AI enthusiast, a professional, or someone curious about the future of technology, we have something for everyone.
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-end">
+                    <h5 class="text-uppercase mb-0">Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2024 AIBlog, Inc.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

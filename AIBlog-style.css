@@ -1,0 +1,38 @@
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item-action:hover,
+.list-group-item-action:focus {
+    background-color: #f8f9fa;
+}
+
+.list-group-item.active {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: white;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
